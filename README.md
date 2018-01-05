@@ -1,24 +1,3 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is a simple mailer utilizing the Rails built-in ActionMailer class. To send an email to yourself, make a POST request with headers to, subject, and body to entelo-simple-mailer.herokuapp.com/emails. Likewise, you can make a POST request in JSON format: { "to": "myemail@example.com", "subject": “hello”, "body": “world” }.
